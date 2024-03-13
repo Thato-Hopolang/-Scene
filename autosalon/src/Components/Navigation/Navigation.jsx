@@ -11,12 +11,11 @@ const Navigation = () => {
     <div className="navigation">
       <Link to="/"><img src={Logo} alt="Cam Review logo"/></Link>
       <ul className="nav-ul">
-        <CustomLink to="/">Home</CustomLink>
-        <CustomLink to="/Servicespage">Services</CustomLink>
-        <CustomLink to="/Projectspage">Projects</CustomLink>
-        <CustomLink to="/Aboutpage">About</CustomLink>
+        <CustomLink to="/">Vehicles</CustomLink>
+        <CustomLink to="/Servicespage">Locations</CustomLink>
+        <CustomLink to="/Projectspage">Equipment</CustomLink>
+        <Link className="btn" to="/Contactpage">Enquire</Link>
       </ul>
-      <Link className="btn" to="/Contactpage">Contact</Link>
     </div>
   )
 }
