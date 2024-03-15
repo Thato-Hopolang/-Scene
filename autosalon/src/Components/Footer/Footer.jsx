@@ -9,41 +9,50 @@ const Footer = () => {
   return (
     <div className="footer">
 
-      <div className="footer-category">
-        <h3>Company</h3>
-        <ul className="footer-ul">
-          <CustomLink to="/">Vehicles</CustomLink>
-          <CustomLink to="/Servicespage">Locations</CustomLink>
-          <CustomLink to="/Projectspage">Equipment</CustomLink>
-        </ul>
+      <div className="top-footer">
+        <div className="footer-category">
+          <h3>Company</h3>
+          <ul className="footer-ul">
+            <CustomLink to="/">Newsroom</CustomLink>
+            <CustomLink to="/Servicespage">Careers</CustomLink>
+            <CustomLink to="/Projectspage">Invest</CustomLink>
+          </ul>
+        </div>
+
+        <div className="footer-category">
+          <h3>Rentees</h3>
+          <ul className="footer-ul">
+            <CustomLink to="/">My Profile</CustomLink>
+            <CustomLink to="/Servicespage">Booked</CustomLink>
+            <CustomLink to="/">Cancellations</CustomLink>
+            <CustomLink to="/Servicespage">History</CustomLink>
+            <CustomLink to="/Projectspage">Dispute</CustomLink>
+          </ul>
+        </div>
+
+        <div className="footer-category">
+          <h3>Renters</h3>
+          <ul className="footer-ul">
+            <CustomLink to="/">My Profile</CustomLink>
+            <CustomLink to="/Servicespage">Booked</CustomLink>
+            <CustomLink to="/">Cancellations</CustomLink>
+            <CustomLink to="/Servicespage">History</CustomLink>
+            <CustomLink to="/Projectspage">Dispute</CustomLink>
+          </ul>
+        </div>
+
+        <div className="footer-category">
+          <h3>Help</h3>
+          <ul className="footer-ul">
+            <CustomLink to="/">FAQs</CustomLink>
+            <CustomLink to="/Servicespage">Booking</CustomLink>
+            <CustomLink to="/Projectspage">Cancellation</CustomLink>
+            <CustomLink to="/Projectspage">Agreements</CustomLink>
+          </ul>
+        </div>
       </div>
 
-      <div className="footer-category">
-        <h3>Company</h3>
-        <ul className="footer-ul">
-          <CustomLink to="/">Vehicles</CustomLink>
-          <CustomLink to="/Servicespage">Locations</CustomLink>
-          <CustomLink to="/Projectspage">Equipment</CustomLink>
-        </ul>
-      </div>
-
-      <div className="footer-category">
-        <h3>Company</h3>
-        <ul className="footer-ul">
-          <CustomLink to="/">Vehicles</CustomLink>
-          <CustomLink to="/Servicespage">Locations</CustomLink>
-          <CustomLink to="/Projectspage">Equipment</CustomLink>
-        </ul>
-      </div>
-
-      <div className="footer-category">
-        <h3>Company</h3>
-        <ul className="footer-ul">
-          <CustomLink to="/">Vehicles</CustomLink>
-          <CustomLink to="/Servicespage">Locations</CustomLink>
-          <CustomLink to="/Projectspage">Equipment</CustomLink>
-        </ul>
-      </div>
+      <div className="bottom-footer"></div>
 
     </div>
 
