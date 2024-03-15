@@ -7,14 +7,46 @@ import "./Footer.css"
 const Footer = () => {
   
   return (
-    <div className="navigation">
-      <ul className="nav-ul">
-        <CustomLink to="/">Vehicles</CustomLink>
-        <CustomLink to="/Servicespage">Locations</CustomLink>
-        <CustomLink to="/Projectspage">Equipment</CustomLink>
-        <Link className="btn" to="/Contactpage">Enquire</Link>
-      </ul>
+    <div className="footer">
+
+      <div className="footer-category">
+        <h3>Company</h3>
+        <ul className="footer-ul">
+          <CustomLink to="/">Vehicles</CustomLink>
+          <CustomLink to="/Servicespage">Locations</CustomLink>
+          <CustomLink to="/Projectspage">Equipment</CustomLink>
+        </ul>
+      </div>
+
+      <div className="footer-category">
+        <h3>Company</h3>
+        <ul className="footer-ul">
+          <CustomLink to="/">Vehicles</CustomLink>
+          <CustomLink to="/Servicespage">Locations</CustomLink>
+          <CustomLink to="/Projectspage">Equipment</CustomLink>
+        </ul>
+      </div>
+
+      <div className="footer-category">
+        <h3>Company</h3>
+        <ul className="footer-ul">
+          <CustomLink to="/">Vehicles</CustomLink>
+          <CustomLink to="/Servicespage">Locations</CustomLink>
+          <CustomLink to="/Projectspage">Equipment</CustomLink>
+        </ul>
+      </div>
+
+      <div className="footer-category">
+        <h3>Company</h3>
+        <ul className="footer-ul">
+          <CustomLink to="/">Vehicles</CustomLink>
+          <CustomLink to="/Servicespage">Locations</CustomLink>
+          <CustomLink to="/Projectspage">Equipment</CustomLink>
+        </ul>
+      </div>
+
     </div>
+
   )
 }
 
