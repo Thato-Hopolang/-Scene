@@ -3,6 +3,15 @@ import { Link } from "react-router-dom"
 //Add useMatch & useResolvedPath to above line
 //Add these when you've added active styles to your nav li in styles
 import "./Footer.css"
+import Location from "./Icons/Location.png"
+import Email from "./Icons/Email.png"
+import Telephone from "./Icons/Telephone.png"
+
+import Instagram from "./Icons/Instagram.png"
+import Pinterest from "./Icons/LinkedIn.png"
+import tiktok from "./Icons/tiktok.png"
+import X from "./Icons/X.png"
+import YouTube from "./Icons/YouTube.png"
 
 const Footer = () => {
   
@@ -54,26 +63,33 @@ const Footer = () => {
         <div className="footer-category">
           <h3>Social Media</h3>
           <ul className="footer-ul">
-            <CustomLink to="/">Instagram</CustomLink>
-            <CustomLink to="/">Pinterest</CustomLink>
-            <CustomLink to="/">tiktok</CustomLink>
-            <CustomLink to="/">X</CustomLink>
-            <CustomLink to="/">YouTube</CustomLink>
+            <CustomLink src={Instagram} alt={"Instagram icon"} to="/">Instagram</CustomLink>
+            <CustomLink src={Pinterest} alt={"pinterest icon"} to="/">Pinterest</CustomLink>
+            <CustomLink src={tiktok} alt={"tiktok icon"} to="/">tiktok</CustomLink>
+            <CustomLink src={X} alt={"X icon"} to="/">X</CustomLink>
+            <CustomLink src={YouTube} alt={"YouTube icon"} to="/">YouTube</CustomLink>
           </ul>
         </div>
 
         <div className="footer-category">
           <h3>Office</h3>
           <ul className="footer-ul">
-            <CustomLink to="/">216 Imaginary Street, Somewhere in Africa, 2001.</CustomLink>
-            <CustomLink to="/">012 111 2222</CustomLink>
-            <CustomLink to="/">Info@&Scene.co.za</CustomLink>
+            <CustomLink src={Location} alt={"Location icon"} to="/">216 Imaginary Street, Somewhere in Africa, 2001.</CustomLink>
+            <CustomLink src={Telephone} alt={"Telephone icon"} to="/">012 111 2222</CustomLink>
+            <CustomLink src={Email} alt={"Email icon"} to="/">Info@&Scene.co.za</CustomLink>
           </ul>
         </div>
 
       </div>
 
-      <div className="bottom-footer"></div>
+      <div className="bottom-footer">
+        <p>&copy; 2024 &Scene.</p>
+        <ul>
+          <CustomLink to="/">Terms & Conditions</CustomLink>
+          <CustomLink to="/">Privacy Policy</CustomLink>
+          <CustomLink to="/">Cookie Policy</CustomLink>
+        </ul>
+      </div>
 
     </div>
 
