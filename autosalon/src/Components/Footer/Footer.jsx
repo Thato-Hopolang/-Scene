@@ -50,6 +50,27 @@ const Footer = () => {
             <CustomLink to="/Projectspage">Agreements</CustomLink>
           </ul>
         </div>
+
+        <div className="footer-category">
+          <h3>Social Media</h3>
+          <ul className="footer-ul">
+            <CustomLink to="/">Instagram</CustomLink>
+            <CustomLink to="/">Pinterest</CustomLink>
+            <CustomLink to="/">tiktok</CustomLink>
+            <CustomLink to="/">X</CustomLink>
+            <CustomLink to="/">YouTube</CustomLink>
+          </ul>
+        </div>
+
+        <div className="footer-category">
+          <h3>Office</h3>
+          <ul className="footer-ul">
+            <CustomLink to="/">216 Imaginary Street, Somewhere in Africa, 2001.</CustomLink>
+            <CustomLink to="/">012 111 2222</CustomLink>
+            <CustomLink to="/">Info@&Scene.co.za</CustomLink>
+          </ul>
+        </div>
+
       </div>
 
       <div className="bottom-footer"></div>
@@ -61,7 +82,7 @@ const Footer = () => {
 
 export default Footer
 
-function CustomLink ({ to, children }) {
+function CustomLink ({ to, children, src, alt }) {
 
   const path = window.location.pathname
   // Once you have added active styles to links remove the code above and use the code below
@@ -71,7 +92,7 @@ function CustomLink ({ to, children }) {
   return (
     //replace path with isActive once active styles have beem added
     <li className={ path === to ? "active" : ""}>
-      <Link to={to}>{children}</Link>
+      <img src={src} alt={alt} /><Link to={to}>{children}</Link>
     </li>
   )
 }
