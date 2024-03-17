@@ -11,6 +11,9 @@
 
 .footer-ul {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .footer-ul a {
