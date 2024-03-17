@@ -8,12 +8,12 @@ const Navigation = () => {
   
   return (
     <div className="navigation">
-      <Link to="/">&Scene</Link>
+      <Link className="logo" to="/">&Scene</Link>
       <ul className="nav-ul">
         <CustomLink to="/">Vehicles</CustomLink>
         <CustomLink to="/Servicespage">Locations</CustomLink>
         <CustomLink to="/Projectspage">Equipment</CustomLink>
-        <Link className="btn" to="/Contactpage">Enquire</Link>
+        <Link className="btn nav-btn" to="/Contactpage">Enquire</Link>
       </ul>
     </div>
   )
