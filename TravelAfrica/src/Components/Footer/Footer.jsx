@@ -3,16 +3,15 @@ import { Link } from "react-router-dom"
 //Add useMatch & useResolvedPath to above line
 //Add these when you've added active styles to your nav li in styles
 import "./Footer.css"
+
 import Location from "./Icons/Location.png"
 import Email from "./Icons/Email.png"
 import Telephone from "./Icons/Telephone.png"
-
 import Instagram from "./Icons/Instagram.png"
-import Pinterest from "./Icons/LinkedIn.png"
+import Pinterest from "./Icons/Pinterest.png"
 import tiktok from "./Icons/tiktok.png"
 import X from "./Icons/X.png"
 import YouTube from "./Icons/YouTube.png"
-
 const Footer = () => {
   
   return (

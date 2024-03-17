@@ -3,13 +3,12 @@ import { Link } from "react-router-dom"
 //Add useMatch & useResolvedPath to above line
 //Add these when you've added active styles to your nav li in styles
 import "./Navigation.css"
-import Logo from "./Images/Logo.png"
 
 const Navigation = () => {
   
   return (
     <div className="navigation">
-      <Link to="/"><img src={Logo} alt="Cam Review logo"/></Link>
+      <Link to="/">&Scene</Link>
       <ul className="nav-ul">
         <CustomLink to="/">Vehicles</CustomLink>
         <CustomLink to="/Servicespage">Locations</CustomLink>
