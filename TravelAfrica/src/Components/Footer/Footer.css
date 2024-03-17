@@ -1,0 +1,28 @@
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  background: #B07E7E;
+}
+
+.top-footer h3 {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.footer-ul {
+  padding: 0;
+}
+
+.footer-ul a {
+  color: #fff;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-footer ul {
+  display: flex;
+  gap: 0.5rem;
+}
